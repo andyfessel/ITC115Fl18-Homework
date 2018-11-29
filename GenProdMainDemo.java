@@ -12,6 +12,11 @@ public class GenProdMainDemo {
 	System.out.println(p1.getPriceFormatted());
 	System.out.println("Product count: " + p1.getproductCount());
 	
+	
+	System.out.println(p2.toString());	
+	System.out.println(p2.getPriceFormatted());
+	System.out.println("Product count: " + p2.getproductCount());
+	
 	System.out.println(p2.getPriceFormatted());
 }
 }

@@ -3,20 +3,23 @@ public class WalkupTicket extends Ticket
 {
 private int daysPriorToEvent;
 private double price = 50.00;
-//private String name = "Walkup";
+private String name = "Walkup";
 	
 	
 	public WalkupTicket(int idNumber)
 	{
 		super(idNumber);	
 	}
-	@Override
+	//@Override
 	public double getPrice()
 	{
 		return price;
-		//return (name  + super.toString());
+		
 	}
+	@Override
+	public String toString() {
+		return (name  +  super.toString());
 }	
-	
+}
 		
 

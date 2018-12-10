@@ -6,10 +6,10 @@ public class TicketMain {
 		
 		Ticket T1 = new WalkupTicket(101);
 		Ticket T2 = new AdvanceTicket(102,9);
-		Ticket T3 = new StudentAdvanceTicket(105, 9);
+		Ticket T3 = new StudentAdvanceTicket(103, 9);
 		
-		Ticket T4 = new WalkupTicket(107);
-		Ticket T5 = new AdvanceTicket(103,11 );
+		Ticket T4 = new WalkupTicket(104);
+		Ticket T5 = new AdvanceTicket(105,11 );
 		Ticket T6 = new StudentAdvanceTicket(106,11);
 			
 

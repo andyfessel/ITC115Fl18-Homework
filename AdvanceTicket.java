@@ -3,7 +3,7 @@ public class AdvanceTicket extends Ticket
 {
 	private int daysPriorToEvent;
 	private double price;
-	//private String name = "Advance";
+	private String name = "Advance";
 	
 	//constructs a ticket with ID number and
 	//and price (to be calculated)
@@ -23,6 +23,10 @@ public class AdvanceTicket extends Ticket
 		price = 30.00;
 		return price;
 	}
-		
+	}
+	@Override
+	public String toString() {
+		return (name  +  super.toString());
+	}	
 }	
-}
+
